@@ -1,0 +1,181 @@
+{
+  "project_info": {
+    "project_number": "34880996297",
+    "project_id": "zendius---publishing",
+    "storage_bucket": "zendius---publishing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:2c37de98dec1eb35771e18",
+        "android_client_info": {
+          "package_name": "com.battle.multi.zendi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:1e018c391eb4420b771e18",
+        "android_client_info": {
+          "package_name": "com.draw.to.deliver.gift.z"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:11173b7f53b91a94771e18",
+        "android_client_info": {
+          "package_name": "com.gym.center.race.champion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:b9f03eb06d06fc66771e18",
+        "android_client_info": {
+          "package_name": "com.meterior.escape.zd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:be5eaf1ab5d5d247771e18",
+        "android_client_info": {
+          "package_name": "com.seafood.match.tiles.zd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:035883ead03e4a00771e18",
+        "android_client_info": {
+          "package_name": "com.shooter.sandbox.playground.fps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:e9202ee1de5256d8771e18",
+        "android_client_info": {
+          "package_name": "com.space.adventure.zd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:681a2feafaace928771e18",
+        "android_client_info": {
+          "package_name": "com.tiny.vs.giant.mission.zd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34880996297:android:0ed2167b83b1d526771e18",
+        "android_client_info": {
+          "package_name": "com.work.out.gang.fighter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLtZcl6LC_g5Xt1f2z2jJfZoGa4z9eNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

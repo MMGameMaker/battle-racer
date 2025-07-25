@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a25da4fac3e8543bb83ff9b2b80469, type: 3}
+  m_Name: ReminderTwo
+  m_EditorClassIdentifier: 
+  id: ReminderTwo
+  title: 'Emergency! Rescue Hugy now '
+  titles:
+  - 'Come & play with Hugy '
+  - 'Missy misses you '
+  - 'Emergency! Rescue Hugy now '
+  description: C'mon, let's play one more
+  descriptions:
+  - You wanna play too? It's be fun!
+  - 'Hii my friend.  I want to meet you... '
+  - C'mon, let's play one more
+  icon: {fileID: 21300000, guid: 8d1454f89da126343b8fc5ee13663ffc, type: 3}
+  iconSmall: 
+  iconLarge: 
+  data: 
+  addDay: 1
+  addHour: 20
+  addMinute: 0
+  fireInMinute: 0
+  fireInSecond: 0

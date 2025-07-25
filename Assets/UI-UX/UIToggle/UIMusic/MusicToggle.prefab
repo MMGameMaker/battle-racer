@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6336145776104406502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1547853986693452, guid: 299cce0f064b76947b45c923c48feaca, type: 3}
+      propertyPath: m_Name
+      value: MusicToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: keyOn
+      value: base_Music_On
+      objectReference: {fileID: 0}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: keyOff
+      value: base_Music_Off
+      objectReference: {fileID: 0}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: status
+      value: 
+      objectReference: {fileID: 6231093681930758294}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: toggle
+      value: 
+      objectReference: {fileID: 6230430895731436426}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: keyTitle
+      value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114400738314588986, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_Text
+      value: Music On
+      objectReference: {fileID: 0}
+    - target: {fileID: 114400738314588986, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114400738314588986, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e512dcb5981cdf340b8cbb09dd60a746,
+        type: 3}
+    - target: {fileID: 114400738314588986, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114400738314588986, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782090257667440, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: key
+      value: base_Music_On
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782090257667440, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114961503659726444, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: graphic
+      value: 
+      objectReference: {fileID: 6231273285863010972}
+    - target: {fileID: 224408575958254708, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 224408575958254708, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470733596420632, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114581561333771974, guid: 299cce0f064b76947b45c923c48feaca, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 299cce0f064b76947b45c923c48feaca, type: 3}
+--- !u!114 &6230430895731436426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114961503659726444, guid: 299cce0f064b76947b45c923c48feaca,
+    type: 3}
+  m_PrefabInstance: {fileID: 6336145776104406502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6231273285863010972 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114680208391769978, guid: 299cce0f064b76947b45c923c48feaca,
+    type: 3}
+  m_PrefabInstance: {fileID: 6336145776104406502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6231093681930758294 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114782090257667440, guid: 299cce0f064b76947b45c923c48feaca,
+    type: 3}
+  m_PrefabInstance: {fileID: 6336145776104406502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ca30e88bdbda340b8a46dbf72c3ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

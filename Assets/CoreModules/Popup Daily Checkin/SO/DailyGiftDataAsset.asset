@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c06373ae375654b94086171ba2eda6, type: 3}
+  m_Name: DailyGiftDataAsset
+  m_EditorClassIdentifier: 
+  list:
+  - name: Day 1
+    id: Day 1
+    idThumb: 
+    index: 0
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    isDailyClaimed: 0
+    iconDailyGift: {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+    amount: 50
+  - name: Day 2
+    id: Day 2
+    idThumb: 
+    index: 1
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    isDailyClaimed: 0
+    iconDailyGift: {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+    amount: 50
+  - name: Day 3
+    id: Day 3
+    idThumb: 
+    index: 2
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    isDailyClaimed: 0
+    iconDailyGift: {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+    amount: 50
+  - name: Day 4
+    id: Day 4
+    idThumb: 
+    index: 3
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    isDailyClaimed: 0
+    iconDailyGift: {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+    amount: 50
+  - name: Day 5
+    id: Day 5
+    idThumb: 
+    index: 4
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    isDailyClaimed: 0
+    iconDailyGift: {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+    amount: 50
+  - name: Day 6
+    id: Day 6
+    idThumb: 
+    index: 5
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    isDailyClaimed: 0
+    iconDailyGift: {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+    amount: 50
+  - name: Day 7
+    id: Day 7
+    idThumb: 
+    index: 6
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    isDailyClaimed: 0
+    iconDailyGift: {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+    amount: 50
+  thumbnailDailys:
+  - {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+  - {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+  - {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+  - {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+  - {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+  - {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}
+  - {fileID: 21300000, guid: 7058f522fcd0f674c94965ced656430f, type: 3}

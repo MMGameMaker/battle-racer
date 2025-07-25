@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf7accc84dd17c42b2b7144143c1f2d, type: 3}
+  m_Name: ConfigAsset
+  m_EditorClassIdentifier: Assembly-CSharp::ConfigData
+  gameConfig:
+    suggestUpdateVersion: 1002303211
+    _timePlayToShowAd: 60
+    _timePlayToShowAdReduce: 0
+    _timeToWaitOpenAd: 15
+    _minLevelToShowInter: 4
+    _timePlayToShowOpenAd: 0
+    _adInterOnComplete: 0
+    _reviceCountDown: 5
+    _reviceCountMax: 3
+    _reviceNoThankCountDown: 2
+    _reviceFree: 1
+    _reviceType: 0
+    adUseBackup: 0
+    adUseOpenBackup: 0
+    adUseNative: 0
+    adUseInPlay: 0
+    forceInterToReward: 0
+    forceRewardToInter: 0
+    forceInterEverywhere: 0
+    timeToWaitOpenInter: 4.5
+    isNeedInternet: 9999999
+    timePlayToShowAds: 15
+    timePlayReduceToShowAds: 0
+    timePlayToShowAdsBreak: 9999
+    rebornType: 0
+    rebornBy: 3
+    adRewardNotToInter: 1
+    adInterNotToReward: 1
+    adInterViewToReward: 5
+    coinRewardByRemoveAds: 800
+    removeAdsCost: 5.99
+    isAdsByPass: 0
+    _goldByAds: 150
+    cost_tier_1: 50
+    rebornTimeAdding: 30
+    unlimitTime: 1
+    buffPrice: 500
+    maxLevel: 100
+    moveSpeedBase: 10
+    dataLevelEventMarket: 1e00000023000000280000002d00000032000000370000003c00000041000000460000004b000000
+    coinLevelEventMarket: 00000000320000003200000032000000320000003200000032000000320000003200000032000000
+    coinRewardEventMarket: 140000001400000014000000140000009001000014000000140000001400000014000000f4010000
+    levelPassNewbieOffer: 15
+    levelToShowHintBooster: 2
+    levelShowTutorialFrosted: 24
+    levelShowTutorialMoving: 14
+    coinToAdsNewBieOffer: 20
+    levelToShowHightLightRandomHint: 9
+    levelToShowHightLightAllHint: 9
+    levelToShowDailyReward: 10
+    levelToShowLuckySpin: 11
+    totalClaimcoinRewardMo: 5
+    totalCoinClaimAdsMo: 20
+    bgmSounds:
+    - BGGameplay_0
+    - BGGameplay_1
+    - BGGameplay_2
+    - BGGameplay_3
+    - BGGameplay_4
+    - BGGameplay_5
+    - BGGameplay_6
+    - BGGameplay_7
+    bgmVolumes:
+    - 0.6
+    - 0.15
+    - 0.35
+    - 0.2
+    - 0.3
+    - 1
+    - 0.25
+    - 0.2
+    timeToMoveRaft: 4.25

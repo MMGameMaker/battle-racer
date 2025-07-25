@@ -1,0 +1,132 @@
+
+Lose.png
+size: 1820,542
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fish/fish 1616
+  rotate: false
+  xy: 1664, 192
+  size: 138, 120
+  orig: 138, 120
+  offset: 0, 0
+  index: -1
+fish/fish 1618
+  rotate: false
+  xy: 1293, 1
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1
+fish/fish 1621
+  rotate: false
+  xy: 1635, 94
+  size: 113, 97
+  orig: 113, 97
+  offset: 0, 0
+  index: -1
+fish/fish 1642
+  rotate: false
+  xy: 1055, 10
+  size: 237, 109
+  orig: 237, 109
+  offset: 0, 0
+  index: -1
+fish/fish 1643
+  rotate: true
+  xy: 1664, 313
+  size: 228, 155
+  orig: 228, 155
+  offset: 0, 0
+  index: -1
+fish/fish 1669
+  rotate: true
+  xy: 1401, 120
+  size: 95, 96
+  orig: 95, 96
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 1, 4
+  size: 537, 723
+  orig: 537, 723
+  offset: 0, 0
+  index: -1
+meo Sad/BD
+  rotate: true
+  xy: 1457, 224
+  size: 220, 206
+  orig: 220, 206
+  offset: 0, 0
+  index: -1
+meo Sad/D
+  rotate: false
+  xy: 1482, 41
+  size: 83, 57
+  orig: 83, 57
+  offset: 0, 0
+  index: -1
+meo Sad/FC
+  rotate: false
+  xy: 1160, 216
+  size: 296, 228
+  orig: 296, 228
+  offset: 0, 0
+  index: -1
+meo Sad/khan
+  rotate: false
+  xy: 1498, 99
+  size: 136, 124
+  orig: 136, 124
+  offset: 0, 0
+  index: -1
+meo Sad/rau meo
+  rotate: false
+  xy: 725, 21
+  size: 329, 100
+  orig: 329, 100
+  offset: 0, 0
+  index: -1
+meo Sad/run run
+  rotate: false
+  xy: 1160, 445
+  size: 464, 96
+  orig: 464, 96
+  offset: 0, 0
+  index: -1
+meo Sad/shadow
+  rotate: false
+  xy: 1160, 120
+  size: 240, 95
+  orig: 240, 95
+  offset: 0, 0
+  index: -1
+meo Sad/tay1
+  rotate: false
+  xy: 1412, 40
+  size: 69, 79
+  orig: 69, 79
+  offset: 0, 0
+  index: -1
+meo Sad/tay2
+  rotate: false
+  xy: 1749, 103
+  size: 60, 88
+  orig: 60, 88
+  offset: 0, 0
+  index: -1
+meo Sad/xoay
+  rotate: false
+  xy: 1566, 25
+  size: 59, 73
+  orig: 59, 73
+  offset: 0, 0
+  index: -1
+tia_tron
+  rotate: false
+  xy: 725, 122
+  size: 434, 419
+  orig: 434, 419
+  offset: 0, 0
+  index: -1

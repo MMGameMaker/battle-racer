@@ -1,0 +1,300 @@
+
+box1.png
+size: 2960,1722
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bling
+  rotate: false
+  xy: 1, 289
+  size: 687, 433
+  orig: 687, 433
+  offset: 0, 0
+  index: -1
+box1/box1_hom
+  rotate: false
+  xy: 1, 4
+  size: 456, 284
+  orig: 456, 284
+  offset: 0, 0
+  index: -1
+box1/box1_lock
+  rotate: false
+  xy: 1652, 457
+  size: 127, 135
+  orig: 127, 135
+  offset: 0, 0
+  index: -1
+box1/box1_nap
+  rotate: false
+  xy: 2244, 1418
+  size: 462, 303
+  orig: 462, 303
+  offset: 0, 0
+  index: -1
+box1/box1_nap mo
+  rotate: false
+  xy: 2231, 957
+  size: 348, 295
+  orig: 348, 295
+  offset: 0, 0
+  index: -1
+box2/box2_lhom
+  rotate: true
+  xy: 689, 266
+  size: 456, 284
+  orig: 456, 284
+  offset: 0, 0
+  index: -1
+box2/box2_lock
+  rotate: false
+  xy: 1660, 35
+  size: 157, 154
+  orig: 157, 154
+  offset: 0, 0
+  index: -1
+box2/box2_nap
+  rotate: false
+  xy: 974, 589
+  size: 462, 303
+  orig: 462, 303
+  offset: 0, 0
+  index: -1
+box2/box2_nap mo
+  rotate: false
+  xy: 1786, 655
+  size: 348, 298
+  orig: 348, 298
+  offset: 0, 0
+  index: -1
+box3/box3_grow trong box
+  rotate: false
+  xy: 1768, 1299
+  size: 475, 422
+  orig: 475, 422
+  offset: 0, 0
+  index: -1
+box3/box3_hom
+  rotate: false
+  xy: 974, 304
+  size: 456, 284
+  orig: 456, 284
+  offset: 0, 0
+  index: -1
+box3/box3_loc_star
+  rotate: false
+  xy: 2801, 1085
+  size: 156, 171
+  orig: 156, 171
+  offset: 0, 0
+  index: -1
+box3/box3_nap
+  rotate: false
+  xy: 1768, 954
+  size: 462, 344
+  orig: 462, 344
+  offset: 0, 0
+  index: -1
+box3/box3_nap mo
+  rotate: false
+  xy: 1437, 593
+  size: 348, 299
+  orig: 348, 299
+  offset: 0, 0
+  index: -1
+grow
+  rotate: false
+  xy: 1, 723
+  size: 972, 998
+  orig: 972, 998
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 974, 893
+  size: 793, 828
+  orig: 793, 828
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2244, 1253
+  size: 471, 164
+  orig: 471, 164
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_00
+  rotate: false
+  xy: 458, 45
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_01
+  rotate: false
+  xy: 2707, 1478
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_02
+  rotate: true
+  xy: 679, 45
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_03
+  rotate: false
+  xy: 2580, 1009
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_04
+  rotate: true
+  xy: 2716, 1257
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_05
+  rotate: false
+  xy: 2135, 710
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_06
+  rotate: false
+  xy: 2356, 713
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_07
+  rotate: true
+  xy: 1786, 434
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_08
+  rotate: false
+  xy: 2030, 411
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_09
+  rotate: false
+  xy: 2251, 466
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_10
+  rotate: false
+  xy: 2472, 469
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_11
+  rotate: false
+  xy: 2577, 713
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_12
+  rotate: false
+  xy: 2693, 469
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_13
+  rotate: true
+  xy: 974, 83
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_14
+  rotate: false
+  xy: 1218, 60
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_15
+  rotate: false
+  xy: 2251, 222
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_16
+  rotate: false
+  xy: 2472, 225
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_17
+  rotate: false
+  xy: 2693, 225
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_18
+  rotate: false
+  xy: 1431, 345
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_19
+  rotate: false
+  xy: 1439, 101
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_20
+  rotate: false
+  xy: 1660, 190
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_21
+  rotate: true
+  xy: 1881, 190
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_22
+  rotate: true
+  xy: 2472, 4
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_23
+  rotate: true
+  xy: 2716, 4
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+spark/411 ZCYXWY eff_suitlight_24
+  rotate: true
+  xy: 2125, 1
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1

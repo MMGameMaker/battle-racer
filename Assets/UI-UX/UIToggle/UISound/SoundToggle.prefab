@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8640971150646224210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1547853986693452, guid: 299cce0f064b76947b45c923c48feaca, type: 3}
+      propertyPath: m_Name
+      value: SoundToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: keyOn
+      value: base_Sound_On
+      objectReference: {fileID: 0}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: keyOff
+      value: base_Sound_Off
+      objectReference: {fileID: 0}
+    - target: {fileID: 114211929479766974, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114473950474632482, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c15b0ad008cbc3440929ea31a4c140bb,
+        type: 3}
+    - target: {fileID: 114782090257667440, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: key
+      value: base_Sound_On
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782090257667440, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470733596420632, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470733596420632, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470733596420632, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224641842494492436, guid: 299cce0f064b76947b45c923c48feaca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 60
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 299cce0f064b76947b45c923c48feaca, type: 3}

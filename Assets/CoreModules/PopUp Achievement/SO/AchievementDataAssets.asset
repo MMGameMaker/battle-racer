@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0d70ace978b354ab0f38cbc3b75e0f, type: 3}
+  m_Name: AchievementDataAssets
+  m_EditorClassIdentifier: 
+  list:
+  - name: Crab
+    id: 
+    idThumb: 
+    index: 0
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: bb91a8a27142e264ea6a13090d484710, type: 3}
+    nameAchievements:
+    - The Crab Collector
+    - Crab King
+    - Crab Destroyer
+    - Holly Crab!
+    - The Crab Master!
+    totalAchievements: 140000003c0000005a00000078000000f0000000
+    rewards: 050000000a0000000f0000001400000032000000
+    conditionAchievements:
+    - Collect 20 buckets of Crab
+    - Collect 60 buckets of Crab
+    - Collect 90 buckets of Crab
+    - Collect 120 buckets of Crab
+    - Collect 240 buckets of Crab
+    typeAchievement: 0
+  - name: Shrimp
+    id: 
+    idThumb: 
+    index: 1
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 44797e65c36aee24a8d752bcc56aef89, type: 3}
+    nameAchievements:
+    - The Shrimp Collector
+    - Shrimp King
+    - Shrimp Destroyer
+    - Holly Shrimp!
+    - The Shrimp Master!
+    totalAchievements: 140000003c0000005a00000078000000f0000000
+    rewards: 050000000a0000000f0000001400000032000000
+    conditionAchievements:
+    - Collect 20 buckets of Shrimp
+    - Collect 60 buckets of Shrimp
+    - Collect 90 buckets of Shrimp
+    - Collect 120 buckets of Shrimp
+    - Collect 240 buckets of Shrimp
+    typeAchievement: 1
+  - name: Cockles
+    id: 
+    idThumb: 
+    index: 2
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 22ec5b891467c2f47adf5cf60e964173, type: 3}
+    nameAchievements:
+    - The Cockles Collector
+    - Cockles King
+    - Cockles Destroyer
+    - Holly Cockles!
+    - The Cockles Master!
+    totalAchievements: 140000003c0000005a00000078000000f0000000
+    rewards: 050000000a0000000f0000001400000032000000
+    conditionAchievements:
+    - Collect 20 buckets of Cockles
+    - Collect 60 buckets of Cockles
+    - Collect 90 buckets of Cockles
+    - Collect 120 buckets of Cockles
+    - Collect 240 buckets of Cockles
+    typeAchievement: 2
+  - name: Turtles
+    id: 
+    idThumb: 
+    index: 3
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 028bf14c5d30c344ea520089c51c760d, type: 3}
+    nameAchievements:
+    - The Turtles Collector
+    - Turtles King
+    - Turtles Destroyer
+    - Holly Turtles!
+    - The Turtles Master!
+    totalAchievements: 140000003c0000005a00000078000000f0000000
+    rewards: 050000000a0000000f0000001400000032000000
+    conditionAchievements:
+    - Collect 20 buckets of Turtles
+    - Collect 60 buckets of Turtles
+    - Collect 90 buckets of Turtles
+    - Collect 120 buckets of Turtles
+    - Collect 240 buckets of Turtles
+    typeAchievement: 3
+  - name: Star
+    id: 
+    idThumb: 
+    index: 4
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: d0dc4b3c988b9e4468c5d749fbf87c30, type: 3}
+    nameAchievements:
+    - The Star Collector
+    - Star King
+    - Star Destroyer
+    - Holly Star!
+    - The Star Master!
+    totalAchievements: 140000003c0000005a00000078000000f0000000
+    rewards: 050000000a0000000f0000001400000032000000
+    conditionAchievements:
+    - Collect 20 buckets of Star
+    - Collect 60 buckets of Star
+    - Collect 90 buckets of Star
+    - Collect 120 buckets of Star
+    - Collect 240 buckets of Star
+    typeAchievement: 4
+  - name: Match
+    id: 
+    idThumb: 
+    index: 5
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 6bdef091bc2b06a40bb7f8d6ecf736c3, type: 3}
+    nameAchievements:
+    - Match Expert
+    - Match Master
+    - Match Queen
+    - Match King
+    - God of Match
+    totalAchievements: 32000000c80000005e010000f4010000e8030000
+    rewards: 050000000a0000000f0000001400000032000000
+    conditionAchievements:
+    - Deliver 50 buckets
+    - Deliver 200 buckets
+    - Deliever 350 buckets
+    - Deliver 500 buckets
+    - Deliver 1000 buckets
+    typeAchievement: 5
+  - name: Fan
+    id: 
+    idThumb: 
+    index: 6
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: b5fd54aa969eab94e939dadc9fd54034, type: 3}
+    nameAchievements:
+    - Only Use Fan
+    - Fan Fun Fast
+    - I'm Your Fan Now
+    totalAchievements: 03000000070000000f000000
+    rewards: 050000000a00000014000000
+    conditionAchievements:
+    - Using Booster The Fan 3 times
+    - Using Booster The Fan 7 times
+    - Using Booster The Fan 15 times
+    typeAchievement: 6
+  - name: Vacuum
+    id: 
+    idThumb: 
+    index: 7
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 9141936248e942e45b6e029731e8edff, type: 3}
+    nameAchievements:
+    - Clean Master
+    - Vacuum Sucks
+    - Cat Black Hole
+    totalAchievements: 03000000070000000f000000
+    rewards: 050000000a00000014000000
+    conditionAchievements:
+    - Using Booster Vacuum 3 times
+    - Using Booster Vacuum 7 times
+    - Using Booster Vacuum 15 times
+    typeAchievement: 7
+  - name: Shuffle
+    id: 
+    idThumb: 
+    index: 8
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: e8e0d15cfaa6dae4bbcc8426b0b04195, type: 3}
+    nameAchievements:
+    - Feeling Dizzy
+    - 'Magic Shuffle '
+    - Super Shuffle
+    totalAchievements: 03000000070000000f000000
+    rewards: 050000000a00000014000000
+    conditionAchievements:
+    - Using Booster Shuffle 3 times
+    - Using Booster Shuffle 7 times
+    - Using Booster Shuffle 15 times
+    typeAchievement: 8
+  - name: Never Give Up
+    id: 
+    idThumb: 
+    index: 9
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 07634c12fb9a0054593f94e7346d6b11, type: 3}
+    nameAchievements:
+    - Never Give Up
+    totalAchievements: 05000000
+    rewards: 05000000
+    conditionAchievements:
+    - Lose 5 times
+    typeAchievement: 9
+  - name: Newbie Winner
+    id: 
+    idThumb: 
+    index: 10
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 4a83a8532c90dbd42a6f4b1fda330482, type: 3}
+    nameAchievements:
+    - Newbie Winner
+    totalAchievements: 0a000000
+    rewards: 05000000
+    conditionAchievements:
+    - Win 10 times
+    typeAchievement: 10
+  - name: Luck Addict
+    id: 
+    idThumb: 
+    index: 11
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 9f3029bb96a27ff4ea28db7a85e2957d, type: 3}
+    nameAchievements:
+    - Luck Addict
+    totalAchievements: 05000000
+    rewards: 0a000000
+    conditionAchievements:
+    - Spin Lucky wheels 5 times
+    typeAchievement: 11
+  - name: First Investment
+    id: 
+    idThumb: 
+    index: 12
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 8db391676ef4f4e4bac2abb0a7f5d3e7, type: 3}
+    nameAchievements:
+    - First Investment
+    totalAchievements: 01000000
+    rewards: 14000000
+    conditionAchievements:
+    - Buy a coin package for 1st time
+    typeAchievement: 12
+  - name: Bounty Hunter
+    id: 
+    idThumb: 
+    index: 13
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: d97d0ffaeabb95347b53133c1e98e619, type: 3}
+    nameAchievements:
+    - Bounty Hunter
+    totalAchievements: 0a000000
+    rewards: 0a000000
+    conditionAchievements:
+    - Watch reward video 10 times
+    typeAchievement: 13
+  - name: Loyal Kitty
+    id: 
+    idThumb: 
+    index: 14
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 2f42adcc51eb2234dac7c1c541a753e7, type: 3}
+    nameAchievements:
+    - Loyal Kitty
+    totalAchievements: 07000000
+    rewards: 14000000
+    conditionAchievements:
+    - Login for 7 days
+    typeAchievement: 14
+  - name: Hattrick King
+    id: 
+    idThumb: 
+    index: 15
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: 9dcf2f31a938dca44bf74fcf7a0e4ecc, type: 3}
+    nameAchievements:
+    - Hattrick King
+    totalAchievements: 0a000000
+    rewards: 0a000000
+    conditionAchievements:
+    - 'Hit x3 combo 10 times '
+    typeAchievement: 15
+  - name: Pawsome
+    id: 
+    idThumb: 
+    index: 16
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: daa0b5a14c6dbb640aded6f23ff15101, type: 3}
+    nameAchievements:
+    - Pawsome
+    totalAchievements: 0a000000
+    rewards: 14000000
+    conditionAchievements:
+    - Hit x4 combo 10 times
+    typeAchievement: 16
+  - name: Market Legend
+    id: 
+    idThumb: 
+    index: 17
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: b7854df549ad24341ada1887567966ef, type: 3}
+    nameAchievements:
+    - Market Legend
+    totalAchievements: 0a000000
+    rewards: 1e000000
+    conditionAchievements:
+    - Hit x5 combo 10 times
+    typeAchievement: 17
+  - name: Ice Breaker
+    id: 
+    idThumb: 
+    index: 18
+    description: 
+    unlockType: 0
+    unlockPrice: 0
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    countHit: 0
+    unlockPay: 0
+    indexAchevement: 0
+    currentAchievement: 0
+    isClaimed: 0
+    iconAchievement: {fileID: 21300000, guid: d1f0f4e2cefbc5e47b1a8114842193ee, type: 3}
+    nameAchievements:
+    - Ice Break
+    totalAchievements: 1e000000
+    rewards: 05000000
+    conditionAchievements:
+    - Break 30 frosted items
+    typeAchievement: 18
+  achievmentRewards:
+  - achievmentRewardDetails:
+    - nameReward: Coin
+      iconReward: {fileID: 21300000, guid: a11e3e0697924f54cb89bdb23cb45c11, type: 3}
+      amountReward: 50
+      iconBox: {fileID: 21300000, guid: f0fecb440bf5a384c8a8b173df63d1c6, type: 3}
+  - achievmentRewardDetails:
+    - nameReward: Ticket
+      iconReward: {fileID: 21300000, guid: 93c48bf8d9c109740a82bac37ba8ec63, type: 3}
+      amountReward: 1
+      iconBox: {fileID: 21300000, guid: 819e38c775de11042ac31ee6642ad430, type: 3}
+  - achievmentRewardDetails:
+    - nameReward: Booster
+      iconReward: {fileID: 21300000, guid: b6afe29470fbde34192283e18f51a1f3, type: 3}
+      amountReward: 1
+      iconBox: {fileID: 21300000, guid: c041d90f7477abd47b8b1e7e71a71d70, type: 3}
