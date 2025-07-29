@@ -27,6 +27,46 @@
       "dependencies": {},
       "hash": "8cf54b63e37dceaf1630135f9abddf08167500a1"
     },
+    "com.google.firebase.analytics": {
+      "version": "file:com.google.firebase.analytics-12.4.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "12.4.1"
+      }
+    },
+    "com.google.firebase.app": {
+      "version": "file:com.google.firebase.app-12.4.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.183"
+      }
+    },
+    "com.google.firebase.crashlytics": {
+      "version": "file:com.google.firebase.crashlytics-12.4.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "12.4.1"
+      }
+    },
+    "com.google.firebase.messaging": {
+      "version": "file:com.google.firebase.messaging-12.4.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "12.4.1"
+      }
+    },
+    "com.google.firebase.remote-config": {
+      "version": "file:com.google.firebase.remote-config-12.4.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "12.4.1"
+      }
+    },
     "com.tivadar.best.http": {
       "version": "file:com.tivadar.best.http",
       "depth": 0,
@@ -304,6 +344,23 @@
         "com.unity.modules.androidjni": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "2.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.splines": {
+      "version": "2.7.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.settings-manager": "1.0.3"
       },
       "url": "https://packages.unity.com"
     },

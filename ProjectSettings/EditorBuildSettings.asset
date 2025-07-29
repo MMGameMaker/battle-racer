@@ -6,13 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/1_Main_UI.unity
-    guid: ed39253c9c27b614fb84bce53e88ede8
-  - enabled: 1
-    path: Assets/Scenes/2_Idle.unity
-    guid: 6436b7ef5a4fbda4298fccb09f579c33
-  - enabled: 1
-    path: Assets/Scenes/3_Battle.unity
-    guid: 9d8acfd9d7cb5c348bc2ff89cf8634bc
+    path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Scenes/Mobile Input.unity
+    guid: 55be368874f569c4b850b250ffd9fba9
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 15a5f751b6574da4ea041405a19a50f5, type: 2}

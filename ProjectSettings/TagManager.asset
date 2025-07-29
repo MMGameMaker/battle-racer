@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - ignoreSensor
+  - Vehicle
   layers:
   - Default
   - TransparentFX
@@ -15,9 +16,9 @@ TagManager:
   - carBody
   - drivable
   - wheels
-  - 
-  - 
-  - 
+  - Player
+  - Vehicle
+  - Obstacle
   - 
   - 
   - 
