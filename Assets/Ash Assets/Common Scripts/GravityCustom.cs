@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 
-public class GravityCustom : MonoBehaviour
+namespace AshVP
 {
-    private Rigidbody rb;
-
-    public float gravity = -30f;
-
-    void Start()
+    public class GravityCustom : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody>();
-        rb.useGravity = false;
-    }
+        private Rigidbody rb;
 
-    void FixedUpdate()
-    {
-        
-        rb.AddForce(Vector3.up * (gravity) * rb.mass);
+        public float gravity = -30f;
+
+        void Start()
+        {
+            rb = GetComponent<Rigidbody>();
+            rb.useGravity = false;
+        }
+
+        void FixedUpdate()
+        {
+
+            rb.AddForce(Vector3.up * (gravity) * rb.mass);
+        }
     }
 }

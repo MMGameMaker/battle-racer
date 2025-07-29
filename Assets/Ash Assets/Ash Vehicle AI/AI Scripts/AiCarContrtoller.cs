@@ -378,6 +378,7 @@ public class AiCarContrtoller : MonoBehaviour
 
 	private void OnDrawGizmos()
 	{
+#if UNITY_EDITOR
 
 		if (!Application.isPlaying)
 		{
@@ -418,7 +419,7 @@ public class AiCarContrtoller : MonoBehaviour
 			maxRayLength = (groundCheck.localPosition.y - wheelYPosition + (0.05f + wheelRadius));
 
 		}
-
+#endif
 	}
 
 }
