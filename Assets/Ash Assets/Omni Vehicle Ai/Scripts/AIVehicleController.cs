@@ -43,11 +43,11 @@ namespace OmniVehicleAi
 
         [Header("AI Input Settings")]
         [Tooltip("AI-controlled acceleration input.")]
-        private float accelerationInputAi = 0f;
+        public float accelerationInputAi = 0f;
         [Tooltip("AI-controlled steering input.")]
-        private float steerInputAi = 0f;
+        public float steerInputAi = 0f;
         [Tooltip("AI-controlled handbrake input.")]
-        private float handBrakeInputAi = 0f;
+        public float handBrakeInputAi = 0f;
 
         [Header("Speed Settings")]
         //[Tooltip("Maximum steering angle for the vehicle.")]

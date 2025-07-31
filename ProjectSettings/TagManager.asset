@@ -19,8 +19,8 @@ TagManager:
   - Player
   - Vehicle
   - Obstacle
-  - 
-  - 
+  - Zombie
+  - CarAI
   - 
   - 
   - 

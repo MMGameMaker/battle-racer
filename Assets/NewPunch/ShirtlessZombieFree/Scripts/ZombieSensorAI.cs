@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Linq;
 using System.Collections;
+using DG.Tweening;
 
 [RequireComponent(typeof(Rigidbody), typeof(CapsuleCollider))]
 public class ZombieRigidbodyAI : MonoBehaviour
@@ -16,7 +17,7 @@ public class ZombieRigidbodyAI : MonoBehaviour
     public int maxHealth = 100;
     [Tooltip("Máu trừ mỗi lần bắn")]
     public int damagePerShot = 10;
-    private int currentHealth;
+    public int currentHealth;
 
     [Header("Collision Damage")]
     [Tooltip("Hệ số nhân cho tốc độ va chạm thành máu trừ")]
@@ -87,7 +88,10 @@ public class ZombieRigidbodyAI : MonoBehaviour
     private Rigidbody[] ragdollBodies;
     private Collider[] ragdollColliders;
     private Collider mainCollider;
-
+    private void OnDisable()
+    {
+        DOTween.Kill(gameObject.GetInstanceID());
+    }
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -151,6 +155,10 @@ public class ZombieRigidbodyAI : MonoBehaviour
             target?.AddForceAtPosition(hitForce, hitPoint, ForceMode.Impulse);
         }
         enabled = false;
+        DOVirtual.DelayedCall(5, () =>
+        {
+            Destroy(gameObject);
+        }).SetId(gameObject.GetInstanceID());
     }
 
     IEnumerator RecoverFromRagdoll(Vector3 hitPoint, Vector3 hitForce)
