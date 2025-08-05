@@ -2,34 +2,45 @@
 
 public class Health : MonoBehaviour
 {
-    [Header("Thiết lập máu")]
-    public float maxHealth = 100f;      // Máu tối đa
-    private float currentHealth;        // Máu hiện tại
+    [Header("Health Settings")]
+    public float maxHealth = 100f;
+    [HideInInspector] public float currentHealth;
 
-    void Awake()
+    private void Awake()
     {
         currentHealth = maxHealth;
     }
 
     /// <summary>
-    /// Gọi khi bị trúng đạn
+    /// Nhận sát thương; tự động dùng defense từ CarStats nếu có.
     /// </summary>
-    /// <param name="amount">Lượng damage</param>
     public void TakeDamage(float amount)
     {
+        var stats = GetComponent<CarStats>();
+        if (stats != null)
+        {
+            amount = Mathf.Max(amount - stats.currentDefense, 0f);
+        }
+
         currentHealth -= amount;
-        Debug.Log($"{name} bị trừ {amount} máu, còn {currentHealth}");
+        Debug.Log($"{name} bị trừ {amount} HP, còn {currentHealth}");
 
         if (currentHealth <= 0f)
             Die();
     }
 
     /// <summary>
-    /// Xử lý khi máu <= 0
+    /// Hồi HP (từ item).
     /// </summary>
+    public void Heal(float amount)
+    {
+        currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
+        Debug.Log($"{name} được hồi {amount} HP, hiện tại {currentHealth}");
+    }
+
     private void Die()
     {
-        // TODO: phát hiệu ứng nổ, âm thanh, v.v.
-        Destroy(gameObject);
+        Debug.Log($"{name} đã chết");
+        gameObject.SetActive(false);
     }
 }

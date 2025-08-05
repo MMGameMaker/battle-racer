@@ -12,7 +12,16 @@ public class HomingProjectile : MonoBehaviour
 
     
     public float damage = 20f;
+    public void SetTarget(Transform t)
+    {
+        target = t;
+    }
 
+    // Gọi từ CarTurretAI để gán sát thương
+    public void SetDamage(float dmg)
+    {
+        damage = dmg;
+    }
     void Update()
     {
 
