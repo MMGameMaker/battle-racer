@@ -1,5 +1,6 @@
 ﻿using OmniVehicleAi;
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
 [RequireComponent(typeof(CarTurretAI))]
@@ -63,6 +64,7 @@ public class CarCombatFSM : MonoBehaviour
     float reactionDelay;
     float decisionInterval;
     float missedRate;
+    public float MissRate => missedRate;
     float abilityCooldown;
     float retreatThreshold;
 
@@ -385,10 +387,25 @@ public class CarCombatFSM : MonoBehaviour
 
     bool HasClearShot(Transform t) => CanSee(t);
 
+    [Header("Ground Settings")]
+    public LayerMask groundLayerMask;
+
     Vector3 GetRandomPatrolPoint()
     {
-        Vector2 c = Random.insideUnitCircle * patrolRadius;
-        return transform.position + new Vector3(c.x, 0, c.y);
+        // 1. Chọn random XZ trong vòng patrolRadius
+        Vector2 circle = Random.insideUnitCircle * patrolRadius;
+        Vector3 randomXZ = transform.position + new Vector3(circle.x, 0, circle.y);
+
+        // 2. Raycast từ trên cao xuống để tìm mặt đất
+        Ray ray = new Ray(randomXZ + Vector3.up * 20f, Vector3.down);
+        if (Physics.Raycast(ray, out RaycastHit hit, 40f, groundLayerMask))
+        {
+            // Nếu trúng ground, trả về đúng point trên mặt đất
+            return hit.point;
+        }
+
+        // 3. Fallback (nếu không gặp gì): vẫn trả về randomXZ
+        return randomXZ;
     }
 
     Vector3 GetSafeDirection()
@@ -404,6 +421,18 @@ public class CarCombatFSM : MonoBehaviour
         go.transform.position = pos;
         return go.transform;
     }
+    void OnDrawGizmosSelected()
+    {
+        // đặt màu cho gizmo
+        Gizmos.color = Color.green;
+        // vẽ đường tròn trên mặt phẳng XZ
+#if UNITY_EDITOR
+        Handles.color = Color.green;
+        Handles.DrawWireDisc(transform.position, Vector3.up, patrolRadius);
+#endif
 
+        // (Nếu không muốn dùng Handles, có thể vẽ sphere 3D:)
+        // Gizmos.DrawWireSphere(transform.position, patrolRadius);
+    }
     #endregion
 }

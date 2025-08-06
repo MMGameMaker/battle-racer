@@ -4663,6 +4663,9 @@ MonoBehaviour:
   healingDuration: 3
   patrolRadius: 50
   lootSearchRange: 30
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 16384
 --- !u!114 &1072065543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4725,7 +4728,7 @@ GameObject:
   - component: {fileID: 1106918704}
   - component: {fileID: 1106918703}
   - component: {fileID: 1106918702}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7248,6 +7251,9 @@ MonoBehaviour:
   healingDuration: 3
   patrolRadius: 50
   lootSearchRange: 30
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 16384
 --- !u!114 &1595286313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8463,6 +8469,9 @@ MonoBehaviour:
   healingDuration: 3
   patrolRadius: 50
   lootSearchRange: 30
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 16384
 --- !u!114 &1898572397
 MonoBehaviour:
   m_ObjectHideFlags: 0
