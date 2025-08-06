@@ -262,7 +262,7 @@ Transform:
   m_GameObject: {fileID: 22987033}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0876334, y: 0.10595838, z: -0.009374957, w: 0.9904572}
-  m_LocalPosition: {x: -0.000000014563948, y: 2.3949331e-18, z: 0.0000000031521556}
+  m_LocalPosition: {x: -2.088598e-12, y: 3.4345444e-22, z: 4.520468e-13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -905,7 +905,7 @@ Transform:
   m_GameObject: {fileID: 194272112}
   serializedVersion: 2
   m_LocalRotation: {x: 5.893321e-11, y: 0.9943264, z: -2.045812e-10, w: 0.106372304}
-  m_LocalPosition: {x: -3.8619633e-16, y: 1.5, z: -143.7}
+  m_LocalPosition: {x: 0.000000014901133, y: 1.5, z: -143.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1672,7 +1672,7 @@ Transform:
   m_GameObject: {fileID: 408828859}
   serializedVersion: 2
   m_LocalRotation: {x: 0.08199648, y: 0.10601, z: -0.008771922, w: 0.99093974}
-  m_LocalPosition: {x: -0.000000014563948, y: 2.3949331e-18, z: 0.0000000031521556}
+  m_LocalPosition: {x: -2.088598e-12, y: 3.4345444e-22, z: 4.520468e-13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3143,7 +3143,7 @@ Transform:
   m_GameObject: {fileID: 726232398}
   serializedVersion: 2
   m_LocalRotation: {x: 0.14438924, y: 0.1052448, z: -0.0154466545, w: 0.98378694}
-  m_LocalPosition: {x: -0.000000014563948, y: 2.3949331e-18, z: 0.0000000031521556}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3383,7 +3383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 373095334, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
       propertyPath: useMobileInput
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 373095334, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
       propertyPath: accelSensitivity
@@ -3540,6 +3540,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1417145683292037634, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2121167711}
+    - targetCorrespondingSourceObject: {fileID: 1417145683292037634, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2121167721}
+    - targetCorrespondingSourceObject: {fileID: 1417145683292037634, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2121167722}
   m_SourcePrefab: {fileID: 100100000, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
 --- !u!1 &820508814 stripped
 GameObject:
@@ -4491,7 +4497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_TagString
@@ -4499,7 +4505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.28
+      value: -56.5
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4507,7 +4513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 68.25
+      value: -65.2
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4564,6 +4570,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1072065543}
+    - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1072065545}
+    - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1072065544}
   m_SourcePrefab: {fileID: 100100000, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
 --- !u!1 &1072065526 stripped
 GameObject:
@@ -4594,10 +4606,10 @@ MonoBehaviour:
   zombieLayer:
     serializedVersion: 2
     m_Bits: 4096
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 2048
+  buffAmount: 10
+  buffDuration: 10
   target: {fileID: 0}
+  defaultMissRate: 20
 --- !u!4 &1072065540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
@@ -4629,11 +4641,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d00b35f610aaf4ca5e1d13da7dca1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engagementRange: 0
-  slowAcceleration: 0.3
-  orbitSpeed: 30
-  searchRange: 378.1
-  arrivalThreshold: 2
+  difficulty: 1
+  detectionRangeEasy: 20
+  detectionRangeNormal: 40
+  detectionRangeHard: 60
+  reactionDelayEasy: 1.5
+  reactionDelayNormal: 0.8
+  reactionDelayHard: 0.2
+  decisionIntervalEasy: 3
+  decisionIntervalNormal: 2
+  decisionIntervalHard: 1
+  missedRateEasy: 30
+  missedRateNormal: 20
+  missedRateHard: 5
+  abilityCooldownEasy: 5
+  abilityCooldownNormal: 3
+  abilityCooldownHard: 1
+  retreatThresholdEasy: 0.2
+  retreatThresholdNormal: 0.3
+  retreatThresholdHard: 0.5
+  healingDuration: 3
+  patrolRadius: 50
+  lootSearchRange: 30
 --- !u!114 &1072065543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4650,6 +4679,40 @@ MonoBehaviour:
   torqueMultiplier: 1
   recoverySpeed: 1
   uprightThreshold: 0.95
+--- !u!114 &1072065544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072065526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3e29b28fd4cc34592225cb59e1a6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+--- !u!114 &1072065545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072065526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9c16efc246aa648af625e5cb42e05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAttack: 1
+  baseDefense: 1
+  baseSpeed: 1
+  maxHP: 100
+  currentAttack: 0
+  currentDefense: 0
+  currentSpeed: 0
+  currentHP: 0
 --- !u!1 &1106918701
 GameObject:
   m_ObjectHideFlags: 0
@@ -7061,7 +7124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_TagString
@@ -7069,7 +7132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 83.7
+      value: 97.9
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7077,7 +7140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 48.9
+      value: 15.1
       objectReference: {fileID: 0}
     - target: {fileID: 6574296778460725568, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7134,6 +7197,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1595286315}
+    - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595286317}
+    - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595286316}
   m_SourcePrefab: {fileID: 100100000, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
 --- !u!1 &1595286310 stripped
 GameObject:
@@ -7157,11 +7226,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d00b35f610aaf4ca5e1d13da7dca1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engagementRange: 0
-  slowAcceleration: 0.3
-  orbitSpeed: 30
-  searchRange: 378.1
-  arrivalThreshold: 2
+  difficulty: 1
+  detectionRangeEasy: 20
+  detectionRangeNormal: 40
+  detectionRangeHard: 60
+  reactionDelayEasy: 1.5
+  reactionDelayNormal: 0.8
+  reactionDelayHard: 0.2
+  decisionIntervalEasy: 3
+  decisionIntervalNormal: 2
+  decisionIntervalHard: 1
+  missedRateEasy: 30
+  missedRateNormal: 20
+  missedRateHard: 5
+  abilityCooldownEasy: 5
+  abilityCooldownNormal: 3
+  abilityCooldownHard: 1
+  retreatThresholdEasy: 0.2
+  retreatThresholdNormal: 0.3
+  retreatThresholdHard: 0.5
+  healingDuration: 3
+  patrolRadius: 50
+  lootSearchRange: 30
 --- !u!114 &1595286313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7200,10 +7286,10 @@ MonoBehaviour:
   zombieLayer:
     serializedVersion: 2
     m_Bits: 4096
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 2048
+  buffAmount: 10
+  buffDuration: 10
   target: {fileID: 0}
+  defaultMissRate: 20
 --- !u!114 &1595286315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7220,6 +7306,40 @@ MonoBehaviour:
   torqueMultiplier: 1
   recoverySpeed: 1
   uprightThreshold: 0.95
+--- !u!114 &1595286316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595286310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3e29b28fd4cc34592225cb59e1a6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+--- !u!114 &1595286317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595286310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9c16efc246aa648af625e5cb42e05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAttack: 1
+  baseDefense: 1
+  baseSpeed: 1
+  maxHP: 100
+  currentAttack: 0
+  currentDefense: 0
+  currentSpeed: 0
+  currentHP: 0
 --- !u!1 &1640176231
 GameObject:
   m_ObjectHideFlags: 0
@@ -7756,7 +7876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4127960938634840145, guid: a5295e78cd3f41f4d9ccd1f82ccb9e0e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7269525453101664401, guid: a5295e78cd3f41f4d9ccd1f82ccb9e0e, type: 3}
       propertyPath: m_Controller
@@ -7797,6 +7917,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4127960938634840145, guid: a5295e78cd3f41f4d9ccd1f82ccb9e0e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1790360664}
+    - targetCorrespondingSourceObject: {fileID: 4127960938634840145, guid: a5295e78cd3f41f4d9ccd1f82ccb9e0e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1790360666}
+    - targetCorrespondingSourceObject: {fileID: 4127960938634840145, guid: a5295e78cd3f41f4d9ccd1f82ccb9e0e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1790360665}
     - targetCorrespondingSourceObject: {fileID: 1781752928258797423, guid: a5295e78cd3f41f4d9ccd1f82ccb9e0e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1377795965}
@@ -8018,6 +8144,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postitionReceiveDmg: {fileID: 2032119474}
   explosionPrefab: {fileID: 167524, guid: fdac75e990da47649b31f10049c400b0, type: 3}
+--- !u!114 &1790360665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790360656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9c16efc246aa648af625e5cb42e05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAttack: 10
+  baseDefense: 5
+  baseSpeed: 8
+  maxHP: 100
+  currentAttack: 0
+  currentDefense: 0
+  currentSpeed: 0
+  currentHP: 0
+--- !u!114 &1790360666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790360656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3e29b28fd4cc34592225cb59e1a6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
 --- !u!1 &1833425312
 GameObject:
   m_ObjectHideFlags: 0
@@ -8252,6 +8412,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1898572399}
+    - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1898572401}
+    - targetCorrespondingSourceObject: {fileID: 6568504588674261029, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1898572400}
   m_SourcePrefab: {fileID: 100100000, guid: a7411e0048145f24e91dadbb59a67ad9, type: 3}
 --- !u!1 &1898572394 stripped
 GameObject:
@@ -8275,11 +8441,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d00b35f610aaf4ca5e1d13da7dca1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engagementRange: 0
-  slowAcceleration: 0.3
-  orbitSpeed: 30
-  searchRange: 378.1
-  arrivalThreshold: 2
+  difficulty: 1
+  detectionRangeEasy: 20
+  detectionRangeNormal: 40
+  detectionRangeHard: 60
+  reactionDelayEasy: 1.5
+  reactionDelayNormal: 0.8
+  reactionDelayHard: 0.2
+  decisionIntervalEasy: 3
+  decisionIntervalNormal: 2
+  decisionIntervalHard: 1
+  missedRateEasy: 30
+  missedRateNormal: 20
+  missedRateHard: 5
+  abilityCooldownEasy: 5
+  abilityCooldownNormal: 3
+  abilityCooldownHard: 1
+  retreatThresholdEasy: 0.2
+  retreatThresholdNormal: 0.3
+  retreatThresholdHard: 0.5
+  healingDuration: 3
+  patrolRadius: 50
+  lootSearchRange: 30
 --- !u!114 &1898572397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8318,10 +8501,10 @@ MonoBehaviour:
   zombieLayer:
     serializedVersion: 2
     m_Bits: 4096
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 2048
+  buffAmount: 10
+  buffDuration: 10
   target: {fileID: 0}
+  defaultMissRate: 20
 --- !u!114 &1898572399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8338,6 +8521,40 @@ MonoBehaviour:
   torqueMultiplier: 1
   recoverySpeed: 1
   uprightThreshold: 0.95
+--- !u!114 &1898572400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898572394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3e29b28fd4cc34592225cb59e1a6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+--- !u!114 &1898572401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898572394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9c16efc246aa648af625e5cb42e05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAttack: 1
+  baseDefense: 1
+  baseSpeed: 1
+  maxHP: 100
+  currentAttack: 0
+  currentDefense: 0
+  currentSpeed: 0
+  currentHP: 0
 --- !u!1 &1915637784
 GameObject:
   m_ObjectHideFlags: 0
@@ -8831,7 +9048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 786460787301972238, guid: 2ea30ec3f3e33b746af665084378805e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 786460787301972238, guid: 2ea30ec3f3e33b746af665084378805e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8908,10 +9125,10 @@ MonoBehaviour:
   zombieLayer:
     serializedVersion: 2
     m_Bits: 4096
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 2048
+  buffAmount: 10
+  buffDuration: 10
   target: {fileID: 0}
+  defaultMissRate: 20
 --- !u!114 &2121167710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8942,6 +9159,40 @@ MonoBehaviour:
   torqueMultiplier: 1
   recoverySpeed: 1
   uprightThreshold: 0.95
+--- !u!114 &2121167721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820508814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3e29b28fd4cc34592225cb59e1a6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+--- !u!114 &2121167722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820508814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9c16efc246aa648af625e5cb42e05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAttack: 1
+  baseDefense: 1
+  baseSpeed: 1
+  maxHP: 100
+  currentAttack: 0
+  currentDefense: 0
+  currentSpeed: 0
+  currentHP: 0
 --- !u!1 &82229229093071050
 GameObject:
   m_ObjectHideFlags: 0
