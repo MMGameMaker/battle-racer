@@ -389,23 +389,37 @@ public class CarCombatFSM : MonoBehaviour
 
     [Header("Ground Settings")]
     public LayerMask groundLayerMask;
+    public LayerMask obstacleLayerMask;
 
     Vector3 GetRandomPatrolPoint()
     {
-        // 1. Chọn random XZ trong vòng patrolRadius
-        Vector2 circle = Random.insideUnitCircle * patrolRadius;
-        Vector3 randomXZ = transform.position + new Vector3(circle.x, 0, circle.y);
-
-        // 2. Raycast từ trên cao xuống để tìm mặt đất
-        Ray ray = new Ray(randomXZ + Vector3.up * 20f, Vector3.down);
-        if (Physics.Raycast(ray, out RaycastHit hit, 40f, groundLayerMask))
+        // Thử tối đa 10 lần
+        for (int i = 0; i < 10; i++)
         {
-            // Nếu trúng ground, trả về đúng point trên mặt đất
-            return hit.point;
+            // 1. Random XZ
+            Vector2 circle = Random.insideUnitCircle * patrolRadius;
+            Vector3 candidateXZ = transform.position + new Vector3(circle.x, 0, circle.y);
+
+            // 2. Raycast xuống để bắt đúng mặt đất
+            Ray down = new Ray(candidateXZ + Vector3.up * 20f, Vector3.down);
+            if (!Physics.Raycast(down, out RaycastHit groundHit, 40f, groundLayerMask))
+                continue; // không tìm được ground, thử điểm khác
+
+            Vector3 candidate = groundHit.point;
+
+            // 3. Kiểm tra đường đi (Linecast) xem có obstacle không
+            //    + nâng ray lên 1m để tránh chạm đất
+            Vector3 start = transform.position + Vector3.up * 1f;
+            Vector3 end = candidate + Vector3.up * 1f;
+            if (Physics.Linecast(start, end, obstacleLayerMask))
+                continue; // có chướng ngại, thử lại
+
+            // 4. Nếu qua hết kiểm tra, dùng điểm này
+            return candidate;
         }
 
-        // 3. Fallback (nếu không gặp gì): vẫn trả về randomXZ
-        return randomXZ;
+        // Fallback: nếu không tìm được trong 10 lần, cứ về tâm patrol
+        return transform.position;
     }
 
     Vector3 GetSafeDirection()

@@ -3383,7 +3383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 373095334, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
       propertyPath: useMobileInput
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 373095334, guid: 87af1d4c660c09249b2a3621aeab020f, type: 3}
       propertyPath: accelSensitivity
@@ -4666,6 +4666,9 @@ MonoBehaviour:
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 16384
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1072065543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7254,6 +7257,9 @@ MonoBehaviour:
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 16384
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1595286313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7412,7 +7418,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4055
+    m_Bits: 32727
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -8472,6 +8478,9 @@ MonoBehaviour:
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 16384
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
 --- !u!114 &1898572397
 MonoBehaviour:
   m_ObjectHideFlags: 0
