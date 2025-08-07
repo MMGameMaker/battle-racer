@@ -1,62 +1,70 @@
 ﻿using UnityEngine;
+
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CarTurretAI))]
 public class CarFlipRecovery : MonoBehaviour
 {
-    [Header("Va chạm bên hông")]
-    [Tooltip("Tốc độ tương đối tối thiểu để kích hoạt nghiêng/lật")]
-    public float sideImpactThreshold = 10f;
-    [Tooltip("Hệ số torque khi va chạm")]
-    public float torqueMultiplier = 1f;
+    [Header("Turret Lock When Tilted")]
+    [Tooltip("Max tilt angle (deg) để cho phép bắn")]
+    public float allowedTiltAngle = 20f;
 
-    [Header("Hồi phục sau lật")]
-    [Tooltip("Tốc độ slerp để xoay thẳng lại")]
-    public float recoverySpeed = 1f;
-    [Tooltip("Ngưỡng dot(transform.up, Vector3.up) để coi như đã thẳng hoàn toàn")]
-    public float uprightThreshold = 0.95f;
+    [Header("Auto Recovery Settings")]
+    [Tooltip("Khi nghiêng ≥ angle này (deg), sẽ tự kích hoạt recovery")]
+    public float flipRecoveryMinAngle = 80f;
+    [Tooltip("Dot(transform.up, Vector3.up) ≥ threshold để coi như đã thẳng lại")]
+    [Range(0f, 1f)]
+    public float uprightDotThreshold = 0.8f;
 
     private Rigidbody rb;
+    private CarTurretAI turretAI;
     private bool isRecovering = false;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        // Tính vận tốc tương đối
-        Vector3 relVel = collision.relativeVelocity;
-        // Lấy thành phần ngang (loại bỏ phần trùng forward)
-        Vector3 lateral = relVel - Vector3.Project(relVel, transform.forward);
-        float latSpeed = lateral.magnitude;
-        // Kiểm tra xem va chạm có phải từ bên hông (dot so với transform.right)
-        float sideDot = Vector3.Dot(lateral.normalized, transform.right);
-
-        if (Mathf.Abs(sideDot) > 0.5f && latSpeed > sideImpactThreshold)
-        {
-            // Áp dụng torque quanh trục forward để nghiêng xe
-            Vector3 torqueDir = transform.forward * Mathf.Sign(sideDot);
-            rb.AddTorque(torqueDir * latSpeed * torqueMultiplier, ForceMode.Impulse);
-        }
+        turretAI = GetComponent<CarTurretAI>();
     }
 
     void Update()
     {
-        // Nếu nghiêng quá (up vector thấp), bắt đầu hồi phục
-        if (Vector3.Dot(transform.up, Vector3.up) < 0.3f)
+        // Tính góc nghiêng giữa up của xe và up thế giới
+        float tiltAngle = Vector3.Angle(transform.up, Vector3.up);
+
+        // Vô hiệu hóa/bật turret dựa trên tilt và recovery
+        if (turretAI != null)
+        {
+            bool canFire = !isRecovering && tiltAngle <= allowedTiltAngle;
+            turretAI.enabled = canFire;
+        }
+
+        // Nếu tilt vượt ngưỡng recovery và chưa đang recovery thì bật recovery
+        if (!isRecovering && tiltAngle >= flipRecoveryMinAngle)
+        {
             isRecovering = true;
+        }
 
         if (isRecovering)
         {
-            // Tính rotation mong muốn: giữ hướng ngang (forward), dựng up lên Vector3.up
-            Vector3 flatFwd = Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized;
-            Quaternion desired = Quaternion.LookRotation(flatFwd, Vector3.up);
-            // Dùng MoveRotation + Slerp để xoay mượt mà
-            rb.MoveRotation(Quaternion.Slerp(rb.rotation, desired, recoverySpeed * Time.deltaTime));
+            PerformRecovery();
 
-            // Nếu đã gần thẳng lại, ngừng hồi phục
-            if (Vector3.Dot(transform.up, Vector3.up) > uprightThreshold)
+            // Khi đã gần thẳng (dot ≥ threshold), tắt recovery
+            if (Vector3.Dot(transform.up, Vector3.up) >= uprightDotThreshold)
+            {
                 isRecovering = false;
+            }
         }
+    }
+
+    /// <summary>
+    /// Áp dụng một lực xoắn để lật xe trở lại tư thế thẳng.
+    /// </summary>
+    private void PerformRecovery()
+    {
+        // Tính vector trục để quay từ trạng thái hiện tại về up thế giới
+        Vector3 axis = Vector3.Cross(transform.up, Vector3.up).normalized;
+        // Lực xoắn tỉ lệ với góc lệch
+        float tiltAngle = Vector3.Angle(transform.up, Vector3.up);
+        float torqueStrength = tiltAngle * Mathf.Deg2Rad * rb.mass * 5f;
+        rb.AddTorque(axis * torqueStrength, ForceMode.VelocityChange);
     }
 }

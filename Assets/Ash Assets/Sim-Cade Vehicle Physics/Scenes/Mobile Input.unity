@@ -4681,10 +4681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f0de458b0a50c4b838daec4be643e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideImpactThreshold: 10
-  torqueMultiplier: 1
-  recoverySpeed: 1
-  uprightThreshold: 0.95
+  allowedTiltAngle: 20
+  flipRecoveryMinAngle: 80
+  uprightDotThreshold: 0.8
 --- !u!114 &1072065544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7314,10 +7313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f0de458b0a50c4b838daec4be643e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideImpactThreshold: 10
-  torqueMultiplier: 1
-  recoverySpeed: 1
-  uprightThreshold: 0.95
+  allowedTiltAngle: 20
+  flipRecoveryMinAngle: 80
+  uprightDotThreshold: 0.8
 --- !u!114 &1595286316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8535,10 +8533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f0de458b0a50c4b838daec4be643e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideImpactThreshold: 10
-  torqueMultiplier: 1
-  recoverySpeed: 1
-  uprightThreshold: 0.95
+  allowedTiltAngle: 20
+  flipRecoveryMinAngle: 80
+  uprightDotThreshold: 0.8
 --- !u!114 &1898572400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9173,10 +9170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f0de458b0a50c4b838daec4be643e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideImpactThreshold: 10
-  torqueMultiplier: 1
-  recoverySpeed: 1
-  uprightThreshold: 0.95
+  allowedTiltAngle: 20
+  flipRecoveryMinAngle: 80
+  uprightDotThreshold: 0.8
 --- !u!114 &2121167721
 MonoBehaviour:
   m_ObjectHideFlags: 0
